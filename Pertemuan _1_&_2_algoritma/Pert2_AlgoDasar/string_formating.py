@@ -6,7 +6,7 @@ waktu_dibuat = datetime.datetime.now()
 
 #position argumen
 print("=======Posisional Argument=======")
-print("\t\t\t{0}\nKepada,\n HRD Manager {1}\n {2}".format(nama_PT,alamat,waktu_dibuat))
+print("\t\t\t{0}\nKepada,\n HRD Manager {1}\n {2}".format(alamat,nama_PT,waktu_dibuat))
 print("Keyword Argumen")
 print("\t\t\t{waktu}\nKepada,\nHRD Manager{nama_PT}\n{alamat}".format(nama_PT = nama_PT,alamat = alamat,waktu= waktu_dibuat))
 print("=======Cara Singkat======")

@@ -17,7 +17,7 @@ class Pesawat(kendaraan) :
 
 class kereta(kendaraan) :
     def menyalakanMesin(self):
-        print("status kerreta : batu bara tidak ada yang jual !!!!!")
+        print("status kereta : batu bara tidak ada yang jual !!!!!")
 
 #polymopisme
 def menyalakanMesin(kendaraan):
